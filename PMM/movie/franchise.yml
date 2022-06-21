@@ -54,6 +54,28 @@ dynamic_collections:
     type: tmdb_collection
     remove_suffix: "Collection"
     template: collection
+    include:
+      - 33938      #Airport
+      - 687929     #Baztan Trilogy
+      - 420        #The Chronicles of Narnia
+      - 319850     #Department Q
+      - 510940     #Hildegarde Withers Mystery
+      - 121938     #The Hobbit
+      - 645        #James Bond
+      - 328        #Jurassic Park
+      - 97461      #Lilo & Stitch
+      - 119        #The Lord of the Rings
+      - 8945       #Mad Max
+      - 512168     #Maigret (Jean Gabin)
+      - 856511     #Mr. Belvedere
+      - 108693     #National Lampoon's Vacation
+      - 300546     #Once Were Warriors
+      - 281097     #Philo Vance
+      - 173710     #Planet of the Apes (Reboot)
+      - 460467     #Space Battleship Yamato
+      - 47814      #The Thin Man
+      - 131        #Three Colors
+      - 194752     #Trilogie de Lucas Belvaux
     addons:
       8091:       # Alien
         - 135416    # Prometheus
