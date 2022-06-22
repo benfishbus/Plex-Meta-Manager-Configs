@@ -145,7 +145,7 @@ dynamic_collections:
       - Germany                       # de
       # - Ghana                         # gh
       # - Gibraltar                     # gi
-      - Greece                        # gr
+      # - Greece                        # gr
       # - Greenland                     # gl
       # - Grenada                       # gd
       # - Guadeloupe                    # gp
@@ -158,8 +158,8 @@ dynamic_collections:
       # - Haiti                         # ht
       # - Holy See                      # va
       # - Honduras                      # hn
-      - Hong Kong                     # hk
-      - Hungary                       # hu
+      # - Hong Kong                     # hk
+      # - Hungary                       # hu
       # - Iceland                       # is
       - India                         # in
       # - Indonesia                     # id
@@ -238,7 +238,7 @@ dynamic_collections:
       # - Puerto Rico                   # pr
       # - Qatar                         # qa
       # - Réunion                       # re
-      - Romania                       # ro
+      # - Romania                       # ro
       - Russia                        # ru
       # - Rwanda                        # rw
       # - Saint Barthélemy              # bl
