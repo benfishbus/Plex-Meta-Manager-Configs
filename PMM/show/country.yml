@@ -263,7 +263,7 @@ dynamic_collections:
       # - sd     # Sudan
       # - sr     # Suriname
       - se     # Sweden
-      # - ch     # Switzerland
+      - ch     # Switzerland
       # - sy     # Syria
       # - tw     # Taiwan
       # - tj     # Tajikistan
