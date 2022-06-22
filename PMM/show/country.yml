@@ -83,7 +83,7 @@ dynamic_collections:
       # - bd     # Bangladesh
       # - bb     # Barbados
       # - by     # Belarus
-      # - be     # Belgium
+      - be     # Belgium
       # - bz     # Belize
       # - bj     # Benin
       # - bm     # Bermuda
