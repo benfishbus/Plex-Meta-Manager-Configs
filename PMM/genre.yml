@@ -61,6 +61,8 @@ dynamic_collections:
       Biography: Biopic
     exclude:
       - Reality
+      - Talk
+      - Talk Show
     addons:
       Action:
         - Action/Adventure
@@ -99,8 +101,6 @@ dynamic_collections:
         - SciFi & Fantasy
         - Science Fiction & Fantasy
         - Sci-Fi & Fantasy
-      Talk Show:
-        - Talk
       Thriller:
         - Suspense
       War:
