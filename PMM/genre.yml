@@ -60,7 +60,9 @@ dynamic_collections:
     title_override:
       Biography: Biopic
     exclude:
+      - Animation
       - Awards Show
+      - Documentary
       - Reality
       - Talk
       - Talk Show
