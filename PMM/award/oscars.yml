@@ -43,7 +43,7 @@ templates:
 
 collections:
 
-  Oscars Best Picture Winners:
+  Oscar Best Picture Winners:
     template:
       - name: award
         image: oscars/best_picture_winner
@@ -53,7 +53,7 @@ collections:
     imdb_list: https://www.imdb.com/search/title/?groups=best_picture_winner
     summary: The Academy Award for Best Picture is one of the Academy Awards presented annually by the Academy of Motion Picture Arts and Sciences since the awards debuted in 1929.
 
-  Oscars Best Director Winners:
+  Oscar Best Director Winners:
     template:
       - name: award
         image: oscars/best_director_winner
