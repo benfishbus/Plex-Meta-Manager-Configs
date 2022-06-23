@@ -145,6 +145,7 @@ collections:
     imdb_list: 
       - https://www.imdb.com/list/ls062665509/
       - https://www.imdb.com/list/ls051733651/
+    tmdb_keyword: 9921
 
   Valentine's Day:
     template:
@@ -156,6 +157,7 @@ collections:
       - https://www.imdb.com/list/ls000094398/
       - https://www.imdb.com/list/ls057783436/
       - https://www.imdb.com/list/ls064427905/
+    tmdb_keyword: 160404
 
   St. Patrick's Day:
     template:
@@ -174,6 +176,7 @@ collections:
     imdb_list: 
       - https://www.imdb.com/list/ls000835734/
       - https://www.imdb.com/list/ls091597850/
+    tmdb_keyword: 4543
 
   Halloween:
     template:
@@ -191,6 +194,7 @@ collections:
       - 8091     # Alien Collection
     tmdb_movie:
       - 23437    # A Nightmare on Elm Street (2010)
+    tmdb_keyword: 3335
 
   Christmas:
     template:
@@ -199,6 +203,7 @@ collections:
         schedule_christmas: range(12/01-12/31)
       - name: shared
     imdb_list: https://www.imdb.com/list/ls000096828/
+    tmdb_keyword: 207317
 
   New Year's Day:
     template:
