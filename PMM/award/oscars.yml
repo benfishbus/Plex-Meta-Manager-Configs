@@ -63,6 +63,15 @@ collections:
     imdb_list: https://www.imdb.com/search/title/?groups=best_director_winner
     summary: The Academy Award for Best Director is one of the Academy Awards presented annually by the Academy of Motion Picture Arts and Sciences since the awards debuted in 1929.
 
+  Oscar Nominees:
+    template:
+      - name: award
+        image: oscars/nomination
+      - name: shared
+        sort: Oscars !3
+    imdb_list: https://www.imdb.com/search/title/?groups=oscar_nominee
+    summary: Oscar Nominees
+
 dynamic_collections:
   Oscars Winners Awards:
     type: number
