@@ -57,5 +57,5 @@ dynamic_collections:
     title_format: <<title>> (Director)
     data:
       depth: 5
-      limit: 25
+      limit: 10
       

@@ -89,6 +89,7 @@ dynamic_collections:
 #      420: The Chronicles of Narnia
       510940: Hildegarde Withers
 #      121938: The Hobbit
+      119: Lord of the Rings
 #      47814: The Thin Man
     template_variables:
       movie:
