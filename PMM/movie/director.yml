@@ -41,6 +41,7 @@ templates:
       sort_by: <<sort_by>>
       all:
         director: tmdb
+    schedule: monthly(15)
  
 collections:
   Directors Collections:
