@@ -37,9 +37,11 @@ templates:
     url_poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/<<key_name_encoded>>.jpg
     smart_filter:
       sort_by: <<sort_by>>
-      any:
+      all:
         genre: <<value>>
-
+        genre.not:
+          - Animation
+          - Documentary
 collections:
   Genre Collections:
     template:
@@ -60,9 +62,7 @@ dynamic_collections:
     title_override:
       Biography: Biopic
     exclude:
-      - Animation
       - Awards Show
-      - Documentary
       - Reality
       - Talk
       - Talk Show
