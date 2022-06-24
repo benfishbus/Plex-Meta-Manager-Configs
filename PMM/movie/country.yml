@@ -41,7 +41,8 @@ templates:
     url_poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/country/<<style>>/<<key_name_encoded>>.jpg
     smart_filter:
       sort_by: <<sort_by>>
-      any:
+      all:
+        country.not: United States of America
         country: <<value>>
 
 collections:
@@ -283,7 +284,7 @@ dynamic_collections:
       # - Ukraine                       # ua
       # - United Arab Emirates          # ae
       - United Kingdom                # gb
-      # - United States of America      # us
+      - United States of America      # us
       # - Uruguay                       # uy
       # - Uzbekistan                    # uz
       # - Vanuatu                       # vu

@@ -43,6 +43,7 @@ templates:
     plex_all: true
     filters:
       origin_country: <<value>>
+      origin_country.not: us
 
 collections:
   Country Collections:
@@ -283,7 +284,7 @@ dynamic_collections:
       # - ua     # Ukraine
       # - ae     # United Arab Emirates
       - gb     # United Kingdom
-      # - us     # United States of America
+      - us     # United States of America
       # - uy     # Uruguay
       # - uz     # Uzbekistan
       # - vu     # Vanuatu
