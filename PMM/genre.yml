@@ -60,12 +60,23 @@ dynamic_collections:
       - genre_dynamic
       - shared
     title_override:
-      Biography: Biopic
-    exclude:
-      - Awards Show
-      - Reality
-      - Talk
-      - Talk Show
+      Action: Action/Adventure
+      Home and Garden: Home/Garden/Food
+      Horror: Horror/Thriller
+      Music: Music/Concert
+      Science Fiction: Sci-Fi/Fantasy
+    include:
+      - Action
+      - Family
+      - Game Show
+      - Home and Garden
+      - Horror
+      - Music
+      - Mystery
+      - Romance
+      - Science Fiction
+      - Short
+      - Sport
     addons:
       Action:
         - Action/Adventure
@@ -74,29 +85,21 @@ dynamic_collections:
         - Action & adventure
         - Action and Adventure
         - Action and adventure
-      Adventure:
-        - Action/Adventure
-        - Action/adventure
-        - Action & Adventure
-        - Action & adventure
-        - Action and Adventure
-        - Action and adventure
-      Animation:
-        - Anime
-      Documentary:
-        - News
+        - Adventure
+        - War
       Family:
         - Children
         - Kids & Family
-      Fantasy:
-        - SciFi & Fantasy
-        - Science Fiction & Fantasy
-        - Science-Fiction & Fantasy
-        - Sci-Fi & Fantasy
-      Film Noir:
-        Film-Noir
-      Politics:
-        - War & Politics
+      Home and Garden:
+        - Food
+      Horror:
+        - Suspense
+        - Thriller
+      Mystery:
+        - Crime
+        - Film Noir
+        - Film-Noir
+        - Gangster
       Science Fiction:
         - SciFi
         - Sci-Fi
@@ -104,7 +107,4 @@ dynamic_collections:
         - SciFi & Fantasy
         - Science Fiction & Fantasy
         - Sci-Fi & Fantasy
-      Thriller:
-        - Suspense
-      War:
-        - War & Politics
+        - Fantasy

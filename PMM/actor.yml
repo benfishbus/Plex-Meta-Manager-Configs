@@ -43,7 +43,6 @@ templates:
       sort_by: <<sort_by>>
       all:
         actor: tmdb
-    schedule: monthly(15)
 
 collections:
   Actors Collections:
