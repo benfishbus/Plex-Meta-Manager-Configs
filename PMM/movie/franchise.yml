@@ -1,0 +1,88 @@
+#############################################################
+#                   Franchise Collections                   #
+#         Created by Yozora, Bullmoose20, & Sohjiro         #
+#############################################################
+#  Call this from your config.yml (Movie only)              #
+#  If nothing is specified these are the defaults           #
+#                                                           #
+#    metadata_path:                                         #
+#      - git: PMM/movie/franchise                           #
+#        template_variables:                                #
+#          # Add Missing Movies to Radarr                   #
+#          radarr_add_missing: true                         #
+#          # Sets the collection order of the collection    #
+#          collection_order: alpha                          #
+#          # Sets the sort title                            #
+#          sort_title: "!02_<<collection_name>>"            #
+#          # Sets the minimum items of the collection       #
+#          minimum_items: 2                                 #
+#          # Sets whether to actually build the collection  #
+#          build_collection: true                           #
+#############################################################
+
+templates:
+  collection:
+    default:
+      collection_order: release
+      minimum_items: 2
+    optional:
+      - collection
+      - movie
+      - radarr_add_missing
+      - name_mapping
+      - sort_title
+      - build_collection
+    cache_builders: 1
+    minimum_items: <<minimum_items>>
+    tmdb_collection_details: <<value>>
+    tmdb_movie: <<movie>>
+    name_mapping: <<name_mapping>>
+    sort_title: <<sort_title>>
+    build_collection: <<build_collection>>
+    sync_mode: sync
+    collection_order: <<collection_order>>
+    radarr_add_missing: <<radarr_add_missing>>
+
+dynamic_collections:
+  TMDb Collections:
+    type: tmdb_collection
+    remove_suffix: "Collection"
+    template: collection
+    include:
+      - 33938     # Airport
+      - 687929    # Baztan Trilogy
+      - 420       # The Chronicles of Narnia
+      - 319850    # Department Q
+      - 510940    # Hildegarde Withers Mystery
+      - 121938    # The Hobbit
+      - 645       # James Bond
+      - 328       # Jurassic Park
+      - 97461     # Lilo & Stitch
+      - 119       # The Lord of the Rings
+      - 8945      # Mad Max
+      - 512168    # Maigret (Jean Gabin)
+      - 856511    # Mr. Belvedere
+      - 108693    # National Lampoon's Vacation
+      - 300546    # Once Were Warriors
+      - 281097    # Philo Vance
+      - 173710    # Planet of the Apes (Reboot)
+      - 460467    # Space Battleship Yamato
+      - 47814     # The Thin Man
+      - 131       # Three Colors
+      - 194752    # Trilogie de Lucas Belvaux
+    addons:
+      8091:       # Alien
+        - 135416    # Prometheus
+      86066:      # Despicable Me
+        - 544669    # Minions
+#      86115:      # Garfield
+#        - 373918    # Garfield CGI
+      748:        # X-Men
+        - 453993    # The Wolverine
+    title_override:
+#      420: The Chronicles of Narnia
+      510940: Hildegarde Withers
+#      121938: The Hobbit
+      119: Lord of the Rings
+#      47814: The Thin Man
+#    template_variables:
