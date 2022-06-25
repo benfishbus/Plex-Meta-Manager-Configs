@@ -61,18 +61,17 @@ dynamic_collections:
       - genre_dynamic
       - shared
     title_override:
-      Action: Action-Adventure
-      Home and Garden: Home-HowTo
-      Horror: Horror-Thriller
-      Music: Music-Concert
-      Science Fiction: SciFi-Fantasy
+      Action: ActionAdventure
+      Home and Garden: HomeHowTo
+      Horror: HorrorThriller
+      Mystery: MysteryNoir
+      Science Fiction: SciFiFantasy
     include:
       - Action
       - Family
       - Game Show
       - Home and Garden
       - Horror
-      - Music
       - Mystery
       - Romance
       - Science Fiction
@@ -97,10 +96,8 @@ dynamic_collections:
         - Suspense
         - Thriller
       Mystery:
-        - Crime
         - Film Noir
         - Film-Noir
-        - Gangster
       Science Fiction:
         - SciFi
         - Sci-Fi
