@@ -38,10 +38,11 @@ templates:
     smart_filter:
       sort_by: <<sort_by>>
       all:
-        genre: <<value>>
         genre.not:
           - Animation
           - Documentary
+        any:
+          genre: <<value>>
 collections:
   Genre Collections:
     template:
@@ -61,7 +62,7 @@ dynamic_collections:
       - shared
     title_override:
       Action: Action/Adventure
-      Home and Garden: Home/Garden/Food
+      Home and Garden: Home/How-To
       Horror: Horror/Thriller
       Music: Music/Concert
       Science Fiction: Sci-Fi/Fantasy
