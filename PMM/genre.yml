@@ -61,11 +61,11 @@ dynamic_collections:
       - genre_dynamic
       - shared
     title_override:
-      Action: Action/Adventure
-      Home and Garden: Home/How-To
-      Horror: Horror/Thriller
-      Music: Music/Concert
-      Science Fiction: Sci-Fi/Fantasy
+      Action: Action-Adventure
+      Home and Garden: Home-HowTo
+      Horror: Horror-Thriller
+      Music: Music-Concert
+      Science Fiction: SciFi-Fantasy
     include:
       - Action
       - Family
