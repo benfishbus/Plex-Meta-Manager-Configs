@@ -96,7 +96,6 @@ dynamic_collections:
         - Suspense
         - Thriller
       Mystery:
-        - Film Noir
         - Film-Noir
       Science Fiction:
         - SciFi
