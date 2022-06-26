@@ -153,7 +153,7 @@ templates:
     optional:
       - image
     cache_builders: 1
-    limit: all
+#    limit: all
     sync_mode: sync
     collection_order: <<collection_order>>
     ignore_blank_results: true
