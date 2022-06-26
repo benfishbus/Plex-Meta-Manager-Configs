@@ -26,7 +26,7 @@
 #############################################################
 
 external_templates:
-  git: PMM/templates
+  repo: PMM/templates
   template_variables:
     collection_section: "04"
 
