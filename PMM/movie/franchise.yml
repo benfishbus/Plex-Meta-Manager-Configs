@@ -61,7 +61,6 @@ dynamic_collections:
       - 119       # The Lord of the Rings
       - 8945      # Mad Max
       - 512168    # Maigret (Jean Gabin)
-      - 856511    # Mr. Belvedere
       - 108693    # National Lampoon's Vacation
       - 300546    # Once Were Warriors
       - 281097    # Philo Vance
@@ -84,5 +83,6 @@ dynamic_collections:
       510940: Hildegarde Withers
 #      121938: The Hobbit
       119: Lord of the Rings
+      300546: Once Were Warriors
 #      47814: The Thin Man
 #    template_variables:
