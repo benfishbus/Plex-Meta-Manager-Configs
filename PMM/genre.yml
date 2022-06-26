@@ -106,7 +106,7 @@ dynamic_collections:
         - Science Fiction & Fantasy
         - Sci-Fi & Fantasy
         - Fantasy
-    template_values:
+    template_variables:
       poster_url:
         Action: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/<<key_name_encoded>>.jpg   # ActionAdventure
         Family: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/<<key_name_encoded>>.jpg
