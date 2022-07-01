@@ -1,0 +1,161 @@
+#############################################################
+#                  Other Chart Collections                  #
+#         Created by Yozora, Bullmoose20, & Sohjiro         #
+#############################################################
+#  Call this from your config.yml (Movie or Show)           #
+#  If nothing is specified these are the defaults           #
+#                                                           #
+#    metadata_path:                                         #
+#      - git: PMM/chart/other                               #
+#        template_variables:                                #
+#          # Sets the collection mode of the collection     #
+#          collection_mode:                                 #
+#          # Sets the value at the start of the sort title  #
+#          collection_section: "01"                         #
+#                                                           #
+#          # Turn the AFI 100 (1998) collection on/off      #
+#          use_afi1998: true                                #
+#          # Determines collection order in it's section    #
+#          order_afi1998:                                   #
+#          # Set visible_library for AFI 100 (1998)         #
+#          visible_library_afi1998: false                   #
+#          # Set visible_home for AFI 100 (1998)            #
+#          visible_home_afi1998: false                      #
+#          # Set visible_shared for AFI 100 (1998)          #
+#          visible_shared_afi1998: false                    #
+#                                                           #
+#          # Turn the AFI 100 (2007) collection on/off      #
+#          use_afi2007: true                                #
+#          # Determines collection order in it's section    #
+#          order_afi2007:                                   #
+#          # Set visible_library for AFI 100 (2007)         #
+#          visible_library_afi2007: false                   #
+#          # Set visible_home for AFI 100 (2007)            #
+#          visible_home_afi2007: false                      #
+#          # Set visible_shared for AFI 100 (2007)          #
+#          visible_shared_afi2007: false                    #
+#                                                           #
+#          # Turn the AFI 100 Cheers collection on/off      #
+#          use_aficheers: true                              #
+#          # Determines collection order in it's section    #
+#          order_aficheers:                                 #
+#          # Set visible_library for AFI 100 Cheers         #
+#          visible_library_aficheers: false                 #
+#          # Set visible_home for AFI 100 Cheers            #
+#          visible_home_aficheers: false                    #
+#          # Set visible_shared for AFI 100 Cheers          #
+#          visible_shared_aficheers: false                  #
+#                                                           #
+#          # Turn the AFI 100 Laughs collection on/off      #
+#          use_afilaughs: true                              #
+#          # Determines collection order in it's section    #
+#          order_afilaughs:                                 #
+#          # Set visible_library for AFI 100 Laughs         #
+#          visible_library_afilaughs: false                 #
+#          # Set visible_home for AFI 100 Laughs            #
+#          visible_home_afilaughs: false                    #
+#          # Set visible_shared for AFI 100 Laughs          #
+#          visible_shared_afilaughs: false                  #
+#                                                           #
+#          # Turn the AFI 100 Passions collection on/off    #
+#          use_afipassions: true                            #
+#          # Determines collection order in it's section    #
+#          order_afipassions:                               #
+#          # Set visible_library for AFI 100 Passions       #
+#          visible_library_afipassions: false               #
+#          # Set visible_home for AFI 100 Passions          #
+#          visible_home_afipassions: false                  #
+#          # Set visible_shared for AFI 100 Passions        #
+#          visible_shared_afipassions: false                #
+#                                                           #
+#          # Turn the AFI 100 Thrills collection on/off     #
+#          use_afithrills: true                             #
+#          # Determines collection order in it's section    #
+#          order_afithrills:                                #
+#          # Set visible_library for AFI 100 Thrills        #
+#          visible_library_afithrills: false                #
+#          # Set visible_home for AFI 100 Thrills           #
+#          visible_home_afithrills: false                   #
+#          # Set visible_shared for AFI 100 Thrills         #
+#          visible_shared_afithrills: false                 #
+#                                                           #
+#          # Turn the AFI 25 Musicals collection on/off     #
+#          use_afimusicals: true                            #
+#          # Determines collection order in it's section    #
+#          order_afimusicals:                               #
+#          # Set visible_library for AFI 25 Musicals        #
+#          visible_library_afimusicals: false               #
+#          # Set visible_home for AFI 25 Musicals           #
+#          visible_home_afimusicals: false                  #
+#          # Set visible_shared for AFI 25 Musicals         #
+#          visible_shared_afimusicals: false                #
+#############################################################
+
+external_templates:
+  repo: PMM/templates
+  template_variables:
+    collection_section: "01"
+
+collections:
+  AFI 100 (1998):
+    imdb_list: https://www.imdb.com/list/ls054767698/
+    summary: "A 'definitive' selection of the 100 greatest American movies of all time. A capsule of the first 100 years of American cinema across decades and genres. Selected in 1998 after polling 1,500 movie people on 400 nominated FEATURE-LENGTH AMERICAN FICTION FILMS RELEASED BEFORE JANUARY 1, 1997."
+    url_poster: https://image.tmdb.org/t/p/original//is5J9spzgDB6QwWHFCijGgHB3X5.jpg
+    template:
+      - name: customsync
+      - name: chart_shared
+        key: afi1998
+
+  AFI 100 (2007):
+    imdb_list: https://www.imdb.com/list/ls000093307/
+    summary: "Received critical recognition and won major awards. Succeeded at the box office and remain popular in 'television and cable airings and DVD/VHS sales and rentals.' Historically significant in terms of visionary narrative devices, technical innovation or other groundbreaking achievements. Culturally impacted American society in matters of style and substance. Selected in 2007 after polling 1,500 movie people on 400 nominated FEATURE-LENGTH AMERICAN FICTION FILMS RELEASED BEFORE JANUARY 1, 2007."
+    url_poster: https://theposterdb.com/api/assets/61160
+    template:
+      - name: customsync
+      - name: chart_shared
+        key: afi2007
+
+  AFI 100 Cheers:
+    imdb_list: https://www.imdb.com/list/ls061312232/
+    summary: "Movies that inspire with characters of vision and conviction who face adversity and often make a personal sacrifice for the greater good. Whether these movies end happily or not, they are ultimately triumphant - both filling audiences with hope and empowering them with the spirit of human potential. Their 'cheers' continue to echo across a century of American cinema. Selected in 2006 after polling 1,500 creatives on 300 nominated FEATURE-LENGTH AMERICAN FICTION FILMS RELEASED BEFORE JANUARY 1, 2005."
+    file_poster: /config/afi_cheers.png
+    template:
+      - name: customsync
+      - name: chart_shared
+        key: aficheers
+
+  AFI 100 Laughs:
+    imdb_list: https://www.imdb.com/list/ls061316884/
+    summary: "Regardless of genre, the total comedic impact of these films' elements creates an experience greater than the sum of the smile. Their 'laughs' echo across time, enriching America's film heritage and inspiring artists and audiences today. Selected in 2000 after polling 1,800 movie people on 500 nominated FEATURE-LENGTH AMERICAN FICTION FILMS."
+    file_poster: /config/afi_laughs.png
+    template:
+      - name: customsync
+      - name: chart_shared
+        key: afilaughs
+
+  AFI 100 Passions:
+    imdb_list: https://www.imdb.com/list/ls068351067/
+    summary: "Regardless of genre, a romantic bond between two or more characters, whose actions and/or intentions provides the heart of these films' narratives. Their 'passions' have enriched America’s film and cultural heritage while continuing to inspire contemporary artists and audiences. Selected in 2002 after polling 1,800 creatives on 400 nominated FEATURE-LENGTH AMERICAN FICTION FILMS."
+    file_poster: /config/afi_passions.png
+    template:
+      - name: customsync
+      - name: chart_shared
+        key: afipassions
+
+  AFI 100 Thrills:
+    imdb_list: https://www.imdb.com/list/ls068182796/
+    summary: "Regardless of genre, the total impact of these 'heart-pounding' and 'adrenaline-inducing' films' artistry and craft has enlivened and enriched America's film heritage. Selected in 2001 after polling 1,800 movie people on 400 nominated FEATURE-LENGTH AMERICAN FICTION FILMS."
+    file_poster: /config/afi_thrills.png
+    template:
+      - name: customsync
+      - name: chart_shared
+        key: afithrills
+
+  AFI 25 Musicals:
+    imdb_list: https://www.imdb.com/list/ls033319353/
+    summary: "Music and lyrics significantly advance the plot, develop character or are otherwise integral to the narrative of these films which have left an indelible mark on the history of the moving image through innovation in song and dance, visionary narrative devices or other groundbreaking achievements. Their songs evoke the memory of their film source, thus ensuring and enlivening both the music and the movie's historical legacy. They continue to inspire artists and audiences alike. Selected in 2006 after polling 500 creatives on 180 nominated FEATURE-LENGTH AMERICAN FILMS."
+    file_poster: /config/afi_musicals.png
+    template:
+      - name: customsync
+      - name: chart_shared
+        key: afimusicals
