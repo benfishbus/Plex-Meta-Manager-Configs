@@ -43,7 +43,7 @@ external_templates:
 templates:
   Holiday:
     default:
-      sort_by: title.asc
+      sort_by: content_rating.asc
       visible_home_<<season>>: true
       visible_shared_<<season>>: true
     optional:
@@ -55,7 +55,7 @@ templates:
     visible_shared: <<visible_shared_<<season>>>>
     smart_label: <<sort_by>>
     summary: A collection of <<collection_name>> and other movies that may relate to the season.
-    url_poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/<<season>>.jpg
+#    url_poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/seasonal/<<season>>.jpg
     delete_not_scheduled: true
     filters:
       genre.not: Documentary
@@ -86,6 +86,7 @@ collections:
       - https://www.imdb.com/list/ls062665509/
       - https://www.imdb.com/list/ls051733651/
     tmdb_keyword: 9921
+    url_poster: https://theposterdb.com/api/assets/166174
 
   Valentine's Day:
     template:
@@ -118,6 +119,7 @@ collections:
       - https://www.imdb.com/list/ls000835734/
       - https://www.imdb.com/list/ls091597850/
     tmdb_keyword: 4543
+    url_poster: https://theposterdb.com/api/assets/166173
 
   Halloween:
     template:
@@ -136,6 +138,7 @@ collections:
     tmdb_movie:
       - 23437    # A Nightmare on Elm Street (2010)
     tmdb_keyword: 3335
+    url_poster: https://theposterdb.com/api/assets/166175
 
   Christmas:
     template:
@@ -145,6 +148,7 @@ collections:
       - name: shared
     imdb_list: https://www.imdb.com/list/ls000096828/
     tmdb_keyword: 207317
+    url_poster: https://theposterdb.com/api/assets/166176
 
   New Year's Day:
     template:
