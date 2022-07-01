@@ -39,7 +39,6 @@ templates:
       sort_by: <<sort_by>>
       all:
         genre.not:
-          - Animation
           - Documentary
         any:
           genre: <<value>>
