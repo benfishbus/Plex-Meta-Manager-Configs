@@ -68,6 +68,7 @@ dynamic_collections:
       Science Fiction: SciFiFantasy
     include:
       - Action
+      - Animation
       - Family
       - Game Show
       - Home and Garden
@@ -88,6 +89,8 @@ dynamic_collections:
         - Action and adventure
         - Adventure
         - War
+      Animation:
+        - Anime
       Family:
         - Children
         - Kids & Family
@@ -109,6 +112,7 @@ dynamic_collections:
     template_variables:
       poster_url:
         Action: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/<<key_name_encoded>>.jpg   # ActionAdventure
+        Animation: https://theposterdb.com/api/assets/189383
         Family: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/<<key_name_encoded>>.jpg
         Game Show: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/<<key_name_encoded>>.jpg
         Home and Garden: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/<<key_name_encoded>>.jpg   # HomeHowTo
