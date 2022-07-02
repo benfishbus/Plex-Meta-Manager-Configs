@@ -49,7 +49,7 @@ templates:
     optional:
       - schedule_<<season>>
       - visible_library_<<season>>
-#    schedule: <<schedule_<<season>>>>
+    schedule: <<schedule_<<season>>>>
     visible_library: <<visible_library_<<season>>>>
     visible_home: <<visible_home_<<season>>>>
     visible_shared: <<visible_shared_<<season>>>>
