@@ -126,4 +126,4 @@ dynamic_collections:
         Thriller: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/<<key_name_encoded>>.jpg   # ThrillerHorror (and Suspense)
         Western: https://theposterdb.com/api/assets/231005
       poster_file:
-        Family: config/family2.png
+        Family: /config/family2.png
