@@ -34,6 +34,7 @@ templates:
   genre_dynamic:
     optional:
       - poster_file
+      - poster_url
     default:
       sort_by: release.desc
     url_poster: <<poster_url>>   # https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/<<key_name_encoded>>.jpg
@@ -117,12 +118,12 @@ dynamic_collections:
         Animation: https://theposterdb.com/api/assets/189383
         Game Show: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/<<key_name_encoded>>.jpg
         Home and Garden: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/<<key_name_encoded>>.jpg   # HomeHowTo
-        Horror: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/<<key_name_encoded>>.jpg   # HorrorThriller (and Suspense)
         Mystery: https://theposterdb.com/api/assets/118940
         Romance: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/<<key_name_encoded>>.jpg
         Science Fiction: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/<<key_name_encoded>>.jpg   # SciFiFantasy
         Short: https://theposterdb.com/api/assets/53063
         Sport: https://theposterdb.com/api/assets/67700
+        Thriller: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/<<key_name_encoded>>.jpg   # ThrillerHorror (and Suspense)
         Western: https://theposterdb.com/api/assets/231005
       poster_file:
         Family: config/family2.png
