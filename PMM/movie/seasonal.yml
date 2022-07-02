@@ -75,6 +75,7 @@ collections:
     imdb_list: 
       - https://www.imdb.com/list/ls068664510/
       - https://www.imdb.com/list/ls080925875/
+    file_poster: config/4thofjuly.jpg
 
   Easter:
     template:
