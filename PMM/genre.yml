@@ -75,12 +75,12 @@ dynamic_collections:
       - Family
       - Game Show
       - Home and Garden
-      - Horror
       - Mystery
       - Romance
       - Science Fiction
       - Short
       - Sport
+      - Thriller
       - Western
     addons:
       Action:
@@ -99,9 +99,6 @@ dynamic_collections:
         - Kids & Family
       Home and Garden:
         - Food
-      Horror:
-        - Suspense
-        - Thriller
       Mystery:
         - Film-Noir
       Science Fiction:
@@ -112,6 +109,9 @@ dynamic_collections:
         - Science Fiction & Fantasy
         - Sci-Fi & Fantasy
         - Fantasy
+      Thriller:
+        - Horror
+        - Suspense
     template_variables:
       poster_url:
         Action: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/<<key_name_encoded>>.jpg   # ActionAdventure
