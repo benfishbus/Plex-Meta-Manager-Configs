@@ -123,7 +123,7 @@ dynamic_collections:
         Science Fiction: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/<<key_name_encoded>>.jpg   # SciFiFantasy
         Short: https://theposterdb.com/api/assets/53063
         Sport: https://theposterdb.com/api/assets/67700
-        Thriller: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/<<key_name_encoded>>.jpg   # ThrillerHorror (and Suspense)
+        Thriller: https://theposterdb.com/api/assets/52680   # ThrillerHorror (and Suspense)
         Western: https://theposterdb.com/api/assets/231005
       poster_file:
         Family: /config/family2.png
