@@ -66,9 +66,9 @@ dynamic_collections:
     title_override:
       Action: ActionAdventure
       Home and Garden: HomeHowTo
-      Horror: HorrorThriller
       Mystery: MysteryNoir
       Science Fiction: SciFiFantasy
+      Thriller: ThrillerHorror
     include:
       - Action
       - Animation
