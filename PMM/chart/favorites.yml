@@ -33,7 +33,7 @@ external_templates:
 collections:
   Sondheim's Favorite Films:
     letterboxd_list_details: https://letterboxd.com/akasharpie321/list/stephen-sondheims-favorite-films/
-    file_poster: /config/sondheims_favorite_films.jpg
+    file_poster: /config/SondheimsFavoriteFilms.jpg
     show_missing: true
     template:
       - name: customsync

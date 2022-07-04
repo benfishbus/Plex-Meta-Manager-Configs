@@ -64,7 +64,7 @@ dynamic_collections:
       - genre_dynamic
       - shared
     title_override:
-      Action: ActionAdventure
+      Action: AdventureAction
       Home and Garden: HomeHowTo
       Mystery: MysteryNoir
       Science Fiction: SciFiFantasy
@@ -72,6 +72,8 @@ dynamic_collections:
     include:
       - Action
       - Animation
+      - Comedy
+      - Drama
       - Family
       - Game Show
       - Home and Garden
@@ -114,16 +116,18 @@ dynamic_collections:
         - Suspense
     template_variables:
       poster_url:
-        Action: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/<<key_name_encoded>>.jpg   # ActionAdventure
         Animation: https://theposterdb.com/api/assets/189383
-        Game Show: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/<<key_name_encoded>>.jpg
-        Home and Garden: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/<<key_name_encoded>>.jpg   # HomeHowTo
+        Drama: https://theposterdb.com/api/assets/204980
+        Home and Garden: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/<<key_name_encoded>>.jpg   # renamed HomeHowTo
         Mystery: https://theposterdb.com/api/assets/118940
         Romance: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/<<key_name_encoded>>.jpg
-        Science Fiction: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/<<key_name_encoded>>.jpg   # SciFiFantasy
         Short: https://theposterdb.com/api/assets/53063
         Sport: https://theposterdb.com/api/assets/67700
         Thriller: https://theposterdb.com/api/assets/52680   # ThrillerHorror (and Suspense)
         Western: https://theposterdb.com/api/assets/231005
       poster_file:
-        Family: /config/family2.png
+        Action: /config/AdventureAction.png   # renamed AdventureAction
+        Comedy: /config/Comedy.png
+        Family: /config/Family.png
+        Game Show: /config/GameShow.png
+        Science Fiction: /config/SciFiFantasy.png   # renamed SciFiFantasy

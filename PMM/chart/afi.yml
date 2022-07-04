@@ -118,7 +118,7 @@ collections:
   AFI 100 Cheers:
     imdb_list: https://www.imdb.com/list/ls061312232/
     summary: "Movies that inspire with characters of vision and conviction who face adversity and often make a personal sacrifice for the greater good. Whether these movies end happily or not, they are ultimately triumphant - both filling audiences with hope and empowering them with the spirit of human potential. Their 'cheers' continue to echo across a century of American cinema. Selected in 2006 after polling 1,500 creatives on 300 nominated FEATURE-LENGTH AMERICAN FICTION FILMS RELEASED BEFORE JANUARY 1, 2005."
-    file_poster: /config/afi_cheers.png
+    file_poster: /config/AFI100Cheers.png
     template:
       - name: customsync
       - name: chart_shared
@@ -127,7 +127,7 @@ collections:
   AFI 100 Laughs:
     imdb_list: https://www.imdb.com/list/ls061316884/
     summary: "Regardless of genre, the total comedic impact of these films' elements creates an experience greater than the sum of the smile. Their 'laughs' echo across time, enriching America's film heritage and inspiring artists and audiences today. Selected in 2000 after polling 1,800 movie people on 500 nominated FEATURE-LENGTH AMERICAN FICTION FILMS."
-    file_poster: /config/afi_laughs.png
+    file_poster: /config/AFI100Laughs.png
     template:
       - name: customsync
       - name: chart_shared
@@ -136,7 +136,7 @@ collections:
   AFI 100 Passions:
     imdb_list: https://www.imdb.com/list/ls068351067/
     summary: "Regardless of genre, a romantic bond between two or more characters, whose actions and/or intentions provides the heart of these films' narratives. Their 'passions' have enriched America’s film and cultural heritage while continuing to inspire contemporary artists and audiences. Selected in 2002 after polling 1,800 creatives on 400 nominated FEATURE-LENGTH AMERICAN FICTION FILMS."
-    file_poster: /config/afi_passions.png
+    file_poster: /config/AFI100Passions.png
     template:
       - name: customsync
       - name: chart_shared
@@ -145,7 +145,7 @@ collections:
   AFI 100 Thrills:
     imdb_list: https://www.imdb.com/list/ls068182796/
     summary: "Regardless of genre, the total impact of these 'heart-pounding' and 'adrenaline-inducing' films' artistry and craft has enlivened and enriched America's film heritage. Selected in 2001 after polling 1,800 movie people on 400 nominated FEATURE-LENGTH AMERICAN FICTION FILMS."
-    file_poster: /config/afi_thrills.png
+    file_poster: /config/AFI100Thrills.png
     template:
       - name: customsync
       - name: chart_shared
@@ -154,7 +154,7 @@ collections:
   AFI 25 Musicals:
     imdb_list: https://www.imdb.com/list/ls033319353/
     summary: "Music and lyrics significantly advance the plot, develop character or are otherwise integral to the narrative of these films which have left an indelible mark on the history of the moving image through innovation in song and dance, visionary narrative devices or other groundbreaking achievements. Their songs evoke the memory of their film source, thus ensuring and enlivening both the music and the movie's historical legacy. They continue to inspire artists and audiences alike. Selected in 2006 after polling 500 creatives on 180 nominated FEATURE-LENGTH AMERICAN FILMS."
-    file_poster: /config/afi_musicals.png
+    file_poster: /config/AFI25Musicals.png
     template:
       - name: customsync
       - name: chart_shared

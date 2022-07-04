@@ -44,7 +44,7 @@ external_templates:
 collections:
   Letterboxd Top 250 Narrative Features:
     letterboxd_list_details: https://letterboxd.com/dave/list/official-top-250-narrative-feature-films/
-    file_poster: /config/letterboxd_250_narrative_features.jpg
+    file_poster: /config/LetterboxdTop250NarrativeFeatures.jpg
     template:
       - name: customsync
       - name: chart_shared
@@ -52,7 +52,7 @@ collections:
 
   Letterboxd Top 250 Docs:
     letterboxd_list_details: https://letterboxd.com/jack/list/official-top-250-documentary-films/
-    file_poster: /config/letterboxd_250_docu.jpg
+    file_poster: /config/LetterboxdTop250Docs.jpg
     template:
       - name: customsync
       - name: chart_shared
