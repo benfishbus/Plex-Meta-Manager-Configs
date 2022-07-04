@@ -65,7 +65,6 @@ dynamic_collections:
       - shared
     title_override:
       Action: AdventureAction
-      Home and Garden: HomeHowTo
       Mystery: MysteryNoir
       Science Fiction: SciFiFantasy
       Thriller: ThrillerHorror
@@ -118,9 +117,7 @@ dynamic_collections:
       poster_url:
         Animation: https://theposterdb.com/api/assets/189383
         Drama: https://theposterdb.com/api/assets/204980
-        Home and Garden: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/<<key_name_encoded>>.jpg   # renamed HomeHowTo
         Mystery: https://theposterdb.com/api/assets/118940
-        Romance: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/<<key_name_encoded>>.jpg
         Short: https://theposterdb.com/api/assets/53063
         Sport: https://theposterdb.com/api/assets/67700
         Thriller: https://theposterdb.com/api/assets/52680   # ThrillerHorror (and Suspense)
@@ -130,4 +127,6 @@ dynamic_collections:
         Comedy: /config/Comedy.png
         Family: /config/Family.png
         Game Show: /config/GameShow.png
+        Home and Garden: /config/HomeAndGarden.png
+        Romance: /config/Romance.png
         Science Fiction: /config/SciFiFantasy.png   # renamed SciFiFantasy
