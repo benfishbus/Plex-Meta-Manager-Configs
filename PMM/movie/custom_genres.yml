@@ -29,16 +29,20 @@ collections:
     url_poster: https://theposterdb.com/api/assets/212898
     template:
       - name: shared
+
   Play/Musical:
     imdb_list: "https://www.imdb.com/search/keyword/?keywords=filmed-play"
 #    tmdb_keyword: 195729,6415,206597
-    smart_filter:
+    smart_label:
+      sort_by: title.asc
       all:
+        label: <<smart_label>>
         genre: Musical
         title.not: "Opening Night"
     url_poster: https://theposterdb.com/api/assets/77912
     template:
       - name: shared
+
   French New Wave:
     cache_builders: 1
 #    schedule: monthly(15)
@@ -48,6 +52,7 @@ collections:
     smart_label: release.asc
     template:
       - name: shared
+
   Music Concert:
     cache_builders: 1
 #    schedule: monthly(15)
