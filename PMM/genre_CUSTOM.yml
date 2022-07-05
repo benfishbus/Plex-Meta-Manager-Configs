@@ -42,10 +42,14 @@ collections:
 
   Music Concert:
     cache_builders: 1
-    tmdb_keyword: 9716,156205    # eliminate if possible...
+#    tmdb_keyword: 156205    # eliminate if possible...
     imdb_list: "https://www.imdb.com/search/title/?user_rating=5.0,10.0&num_votes=100,&genres=documentary&keywords=concert-film"
+    imdb_list: "https://www.imdb.com/search/keyword/?keywords=concert-film"
+    plex_search:
+      any:
+        genre: Music
     filters:
-      genre: Music
+      genre.not: Documentary
     url_poster: https://theposterdb.com/api/assets/126050
     collection_order: alpha
     template:
@@ -53,8 +57,15 @@ collections:
 
   Plays & Musicals:
     cache_builders: 1
+    imdb_list: "https://www.imdb.com/search/keyword/?keywords=based-on-stage-musical"
+    imdb_list: "https://www.imdb.com/search/keyword/?keywords=filmed-performance"
     imdb_list: "https://www.imdb.com/search/keyword/?keywords=filmed-play"
-    tmdb_keyword: 195729,6415,206597
+    imdb_list: "https://www.imdb.com/search/keyword/?keywords=stage-musical"
+    imdb_list: "https://www.imdb.com/search/title/?companies=co0023856"   # Broadway Theatre Archive
+    imdb_list: "https://www.imdb.com/search/title/?companies=co0588949"   # BroadwayHD
+    imdb_list: "https://www.imdb.com/search/title/?companies=co0493480"   # Digital Theatre
+    imdb_list: "https://www.imdb.com/search/title/?companies=co0388435"   # National Theatre Live
+    imdb_list: "https://www.imdb.com/search/title/?companies=co0538721"   # Stratford Festival
     plex_search:
       any:
         genre: Musical
