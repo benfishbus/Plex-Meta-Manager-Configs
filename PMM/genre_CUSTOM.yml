@@ -48,7 +48,9 @@ collections:
 #      - "https://www.imdb.com/search/title/?user_rating=5.0,10.0&num_votes=100,&genres=documentary&keywords=concert-film"
     filters:
       genre: Music
-      genre.not: Documentary
+      genre.not:
+        - Animation
+        - Documentary
     url_poster: https://theposterdb.com/api/assets/126050
     collection_order: alpha
     template:
