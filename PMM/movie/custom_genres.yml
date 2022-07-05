@@ -29,7 +29,6 @@ collections:
     url_poster: https://theposterdb.com/api/assets/212898
     template:
       - name: shared
-
   Play/Musical:
     imdb_list: "https://www.imdb.com/search/keyword/?keywords=filmed-play"
 #    tmdb_keyword: 195729,6415,206597
@@ -40,7 +39,6 @@ collections:
     url_poster: https://theposterdb.com/api/assets/77912
     template:
       - name: shared
-
   French New Wave:
     cache_builders: 1
 #    schedule: monthly(15)
@@ -48,11 +46,11 @@ collections:
 #    file_poster: /config/La_Nouvelle_Vague.jpg
     imdb_list: "https://www.imdb.com/list/ls088475350/"    # Probably the 50 best - not all-inclusive
     smart_label: release.asc
-
+    template:
+      - name: shared
   Music Concert:
     cache_builders: 1
 #    schedule: monthly(15)
-    url_poster: https://theposterdb.com/api/assets/126050
     tmdb_keyword: 9716,156205    # eliminate if possible...
     imdb_list: "https://www.imdb.com/search/title/?user_rating=5.0,10.0&num_votes=100,&genres=documentary&keywords=concert-film"
     smart_label:
@@ -60,3 +58,6 @@ collections:
       all:
         label: <<smart_label>>
         genre: Music
+    url_poster: https://theposterdb.com/api/assets/126050
+    template:
+      - name: shared
