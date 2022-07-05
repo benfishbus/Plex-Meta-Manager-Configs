@@ -44,13 +44,13 @@ collections:
     cache_builders: 1
 #    tmdb_keyword: 156205    # eliminate if possible...
     imdb_list:
-      - "https://www.imdb.com/search/keyword/?keywords=concert-film"
-#      - "https://www.imdb.com/search/title/?user_rating=5.0,10.0&num_votes=100,&genres=documentary&keywords=concert-film"
+#      - "https://www.imdb.com/search/keyword/?keywords=concert-film"
+      - "https://www.imdb.com/search/title/?user_rating=5.0,10.0&num_votes=100,&genres=documentary&keywords=concert-film"
     filters:
       genre: Music
       genre.not:
         - Animation
-        - Documentary
+#        - Documentary
         - Musical
       label.not: Holidays
     url_poster: https://theposterdb.com/api/assets/126050
@@ -73,11 +73,12 @@ collections:
     plex_search:
       any:
         genre: Musical
+        title: "National Theatre"
     filters:
       title.not: "Opening Night"
       genre.not: 
         - Animation
-        - Documentary
+#       - Documentary
       label.not: Holidays
     url_poster: https://theposterdb.com/api/assets/77912
     collection_order: alpha
