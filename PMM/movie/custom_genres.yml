@@ -37,7 +37,7 @@ collections:
     imdb_list: "https://www.imdb.com/search/keyword/?keywords=filmed-play"
     tmdb_keyword: 195729,6415,206597
     plex_search:
-      all
+      all:
         genre: Musical
         title.not: "Opening Night"
     url_poster: https://theposterdb.com/api/assets/77912
