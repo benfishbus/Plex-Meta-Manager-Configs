@@ -1,0 +1,60 @@
+#############################################################
+#                 Dynamic Genre Collections                 #
+#         Created by Yozora, Bullmoose20, & Sohjiro         #
+#############################################################
+#  Call this from your config.yml (Movie or Show)           #
+#  If nothing is specified these are the defaults           #
+#                                                           #
+#    metadata_path:                                         #
+#      - git: PMM/genre                                     #
+#        template_variables:                                #
+#          # Turn the separator collection on/off           #
+#          use_separator: true                              #
+#          # Sets how the collection is sorted              #
+#          sort_by: release.desc                            #
+#          # Sets the collection mode of the collection     #
+#          collection_mode:                                 #
+#          # Sets the value at the start of the sort title  #
+#          collection_section: "06"                         #
+#############################################################
+
+external_templates:
+  repo: PMM/templates
+  template_variables:
+    collection_section: "06"
+
+collections:
+  Disaster:
+    imdb_list: "https://www.imdb.com/search/keyword/?keywords=disaster-film"
+    url_poster: https://theposterdb.com/api/assets/212898
+    template:
+      - name: shared
+
+  Play/Musical:
+    imdb_list: "https://www.imdb.com/search/keyword/?keywords=filmed-play"
+#    tmdb_keyword: 195729,6415,206597
+    smart_filter:
+      all:
+        genre: Musical
+        title.not: "Opening Night"
+    url_poster: https://theposterdb.com/api/assets/77912
+    template:
+      - name: shared
+
+  French New Wave:
+    cache_builders: 1
+#    schedule: monthly(15)
+    show_missing: true
+#    file_poster: /config/La_Nouvelle_Vague.jpg
+    imdb_list: "https://www.imdb.com/list/ls088475350/"    # Probably the 50 best - not all-inclusive
+    smart_label: release.asc
+
+  Music Concert:
+    cache_builders: 1
+#    schedule: monthly(15)
+    url_poster: https://theposterdb.com/api/assets/126050
+    tmdb_keyword: 9716,156205    # eliminate if possible...
+    imdb_list: "https://www.imdb.com/search/title/?user_rating=5.0,10.0&num_votes=100,&genres=documentary&keywords=concert-film"
+    smart_label: title.asc
+      all:
+        genre: Music
