@@ -32,14 +32,15 @@ collections:
     template:
       - name: shared
 
-  Play or Musical:
+  Plays & Musicals:
     cache_builders: 1
     imdb_list: "https://www.imdb.com/search/keyword/?keywords=filmed-play"
     tmdb_keyword: 195729,6415,206597
     plex_search:
-      all:
+      any:
         genre: Musical
-        title.not: "Opening Night"
+    filters:
+      title.not: "Opening Night"
     url_poster: https://theposterdb.com/api/assets/77912
     collection_order: alpha
     template:
