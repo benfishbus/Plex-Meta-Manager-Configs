@@ -55,6 +55,8 @@ collections:
     url_poster: https://theposterdb.com/api/assets/126050
     tmdb_keyword: 9716,156205    # eliminate if possible...
     imdb_list: "https://www.imdb.com/search/title/?user_rating=5.0,10.0&num_votes=100,&genres=documentary&keywords=concert-film"
-    smart_label: title.asc
+    smart_label:
+      sort_by: title.asc
       all:
+        label: <<smart_label>>
         genre: Music
