@@ -41,6 +41,8 @@ collections:
         genre: Musical
     filters:
       title.not: "Opening Night"
+      genre.not: Animation
+      label.not: Holidays
     url_poster: https://theposterdb.com/api/assets/77912
     collection_order: alpha
     template:
