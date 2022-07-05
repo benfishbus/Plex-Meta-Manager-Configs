@@ -37,7 +37,7 @@ templates:
       - poster_url
     default:
       sort_by: release.desc
-    url_poster: <<poster_url>>   # https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/<<key_name_encoded>>.jpg
+    url_poster: <<poster_url>>   # https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/genre/<<key_name_encoded>>.png
     file_poster: <<poster_file>>
     smart_filter:
       sort_by: <<sort_by>>
@@ -64,10 +64,13 @@ dynamic_collections:
       - genre_dynamic
       - shared
     title_override:
-      Action: AdventureAction
-      Mystery: MysteryNoir
-      Science Fiction: SciFiFantasy
-      Thriller: ThrillerHorror
+      Action: Adventure & Action & War
+      Game Show: Game Show & Competition
+      Home and Garden: Home & Garden &Food
+      Mystery: Mystery & Noir
+      Science Fiction: Sci-Fi & Fantasy
+      Sport: Sports
+      Thriller: Thriller & Horror & Suspense
     include:
       - Action
       - Animation
@@ -117,16 +120,16 @@ dynamic_collections:
       poster_url:
         Animation: https://theposterdb.com/api/assets/189383
         Drama: https://theposterdb.com/api/assets/204980
-        Mystery: https://theposterdb.com/api/assets/118940
+        Mystery: https://theposterdb.com/api/assets/118940   # Mystery-Noir
         Short: https://theposterdb.com/api/assets/53063
-        Sport: https://theposterdb.com/api/assets/67700
-        Thriller: https://theposterdb.com/api/assets/52680   # ThrillerHorror (and Suspense)
+        Sport: https://theposterdb.com/api/assets/67700   # Sports
+        Thriller: https://theposterdb.com/api/assets/52680   # Thriller-Horror-Suspense
         Western: https://theposterdb.com/api/assets/231005
-      poster_file:
-        Action: /config/AdventureAction.png   # renamed AdventureAction
-        Comedy: /config/Comedy.png
-        Family: /config/Family.png
-        Game Show: /config/GameShow.png
-        Home and Garden: /config/HomeAndGarden.png
-        Romance: /config/Romance.png
-        Science Fiction: /config/SciFiFantasy.png   # renamed SciFiFantasy
+#      poster_file:
+#        Action: /config/AdventureAction.png   # Adventure-Action-War
+#        Comedy: /config/Comedy.png
+#        Family: /config/Family.png
+#        Game Show: /config/GameShow.png   # GameShow-Competition
+#        Home and Garden: /config/HomeAndGarden.png   # Home-Garden-Food
+#        Romance: /config/Romance.png
+#        Science Fiction: /config/SciFiFantasy.png   # SciFi-Fantasy
