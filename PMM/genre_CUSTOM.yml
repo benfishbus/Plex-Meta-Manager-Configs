@@ -43,7 +43,7 @@ collections:
   Music Concert:
     cache_builders: 1
 #    tmdb_keyword: 156205    # eliminate if possible...
-    imdb_list: "https://www.imdb.com/search/title/?user_rating=5.0,10.0&num_votes=100,&genres=documentary&keywords=concert-film"
+#    imdb_list: "https://www.imdb.com/search/title/?user_rating=5.0,10.0&num_votes=100,&genres=documentary&keywords=concert-film"
     imdb_list: "https://www.imdb.com/search/keyword/?keywords=concert-film"
     plex_search:
       any:
