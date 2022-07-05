@@ -36,9 +36,10 @@ collections:
     cache_builders: 1
     imdb_list: "https://www.imdb.com/search/keyword/?keywords=filmed-play"
     tmdb_keyword: 195729,6415,206597
-    filter:
-      genre: Musical
-      title.not: "Opening Night"
+    plex_search:
+      all
+        genre: Musical
+        title.not: "Opening Night"
     url_poster: https://theposterdb.com/api/assets/77912
     collection_order: alpha
     template:
@@ -56,7 +57,7 @@ collections:
     cache_builders: 1
     tmdb_keyword: 9716,156205    # eliminate if possible...
     imdb_list: "https://www.imdb.com/search/title/?user_rating=5.0,10.0&num_votes=100,&genres=documentary&keywords=concert-film"
-    filter:
+    filters:
       genre: Music
     url_poster: https://theposterdb.com/api/assets/126050
     collection_order: alpha
