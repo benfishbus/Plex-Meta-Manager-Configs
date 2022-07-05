@@ -25,44 +25,40 @@ external_templates:
 
 collections:
   Disaster:
+    cache_builders: 1
     imdb_list: "https://www.imdb.com/search/keyword/?keywords=disaster-film"
     url_poster: https://theposterdb.com/api/assets/212898
+    collection_order: alpha
     template:
       - name: shared
 
-  Play/Musical:
+  Play or Musical:
+    cache_builders: 1
     imdb_list: "https://www.imdb.com/search/keyword/?keywords=filmed-play"
-#    tmdb_keyword: 195729,6415,206597
-    smart_label:
-      sort_by: title.asc
-      all:
-        label: <<smart_label>>
-        genre: Musical
-        title.not: "Opening Night"
+    tmdb_keyword: 195729,6415,206597
+    filter:
+      genre: Musical
+      title.not: "Opening Night"
     url_poster: https://theposterdb.com/api/assets/77912
+    collection_order: alpha
     template:
       - name: shared
 
   French New Wave:
     cache_builders: 1
-#    schedule: monthly(15)
     show_missing: true
-#    file_poster: /config/La_Nouvelle_Vague.jpg
     imdb_list: "https://www.imdb.com/list/ls088475350/"    # Probably the 50 best - not all-inclusive
-    smart_label: release.asc
+    collection_order: release
     template:
       - name: shared
 
   Music Concert:
     cache_builders: 1
-#    schedule: monthly(15)
     tmdb_keyword: 9716,156205    # eliminate if possible...
     imdb_list: "https://www.imdb.com/search/title/?user_rating=5.0,10.0&num_votes=100,&genres=documentary&keywords=concert-film"
-    smart_label:
-      sort_by: title.asc
-      all:
-        label: <<smart_label>>
-        genre: Music
+    filter:
+      genre: Music
     url_poster: https://theposterdb.com/api/assets/126050
+    collection_order: alpha
     template:
       - name: shared
