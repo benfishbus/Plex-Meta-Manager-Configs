@@ -53,20 +53,16 @@ dynamic_collections:
       - shared
     template_variables:
       poster_url:
+        Disney:  https://theposterdb.com/api/assets/11845
         Pixar: https://theposterdb.com/api/assets/18894
         Studio Ghibli: https://theposterdb.com/api/assets/16569
-        Walt Disney:  https://theposterdb.com/api/assets/11845
         Warner-DC: https://theposterdb.com/api/assets/69262
     include:
+      - Disney
       - Pixar
       - Studio Ghibli
-      - Walt Disney
       - Warner-DC
     addons:
-      Pixar:
-        - Pixar Animation Studios
-      Walt Disney:
-        - Disney
       Warner-DC:
         - Warner
         - DC Comics
