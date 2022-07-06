@@ -32,19 +32,23 @@ templates:
       sort_by: <<sort_by>>
       all:
         genre: Animation
-        studio.is: <<value>>
+        studio: <<value>>
 
 collections:
-  Studio Collections:
+  Animation Studio Collections:
     template:
       - name: separator
         separator: studio
 
 dynamic_collections:
-  Studio:
+  Animation Studio:
     type: studio
     title_format: <<key_name>>
     template:
+      - studio_dynamic
+      - shared
+    other_template:
+      - other_collection
       - studio_dynamic
       - shared
     template_variables:
@@ -56,15 +60,13 @@ dynamic_collections:
     include:
       - Pixar
       - Studio Ghibli
-      - Walt Disney Animation Studios
-      - Warner Bros. Pictures
+      - Walt Disney
+      - Warner/DC
     addons:
       Pixar:
         - Pixar Animation Studios
-      Walt Disney Animation Studios:
+      Walt Disney:
         - Disney
-        - Walt Disney Pictures
-      Warner Animation Group:
+      Warner/DC:
         - Warner
-        - Warner Bros. Pictures
         - DC Comics
