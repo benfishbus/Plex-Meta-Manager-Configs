@@ -24,7 +24,7 @@ external_templates:
     collection_section: "07"
 
 templates:
-  studio_dynamic:
+  studio_animation_dynamic:
     default:
       sort_by: release.desc
     url_poster: <<poster_url>>
@@ -35,21 +35,21 @@ templates:
         studio: <<value>>
 
 collections:
-  Animation Studio Collections:
+  Studio Animation Collections:
     template:
       - name: separator
-        separator: studio
+        separator: studio_animation
 
 dynamic_collections:
-  Animation Studio:
+  Studio Animation:
     type: studio
     title_format: <<key_name>>
     template:
-      - studio_dynamic
+      - studio_animation_dynamic
       - shared
     other_template:
       - other_collection
-      - studio_dynamic
+      - studio_animation_dynamic
       - shared
     template_variables:
       poster_url:
