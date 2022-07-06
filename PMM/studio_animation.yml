@@ -55,18 +55,18 @@ dynamic_collections:
       poster_url:
         Pixar: https://theposterdb.com/api/assets/18894
         Studio Ghibli: https://theposterdb.com/api/assets/16569
-        Walt Disney Animation Studios:  https://theposterdb.com/api/assets/11845
-        Warner Animation Group: https://theposterdb.com/api/assets/69262
+        Walt Disney:  https://theposterdb.com/api/assets/11845
+        Warner-DC: https://theposterdb.com/api/assets/69262
     include:
       - Pixar
       - Studio Ghibli
       - Walt Disney
-      - Warner/DC
+      - Warner-DC
     addons:
       Pixar:
         - Pixar Animation Studios
       Walt Disney:
         - Disney
-      Warner/DC:
+      Warner-DC:
         - Warner
         - DC Comics
