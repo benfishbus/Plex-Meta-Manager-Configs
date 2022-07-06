@@ -1,0 +1,107 @@
+#############################################################
+#                   Universe Collections                    #
+#         Created by Yozora, Bullmoose20, & Sohjiro         #
+#############################################################
+#  REQUIRES TRAKT AUTHENTICATION                            #
+#  https://metamanager.wiki/en/latest/config/trakt.html     #
+#                                                           #
+#  Call this from your config.yml (Movie only)              #
+#  If nothing is specified these are the defaults           #
+#                                                           #
+#    metadata_path:                                         #
+#      - git: PMM/movie/universe                            #
+#        template_variables:                                #
+#          # Turn the separator collection on/off           #
+#          use_separator: true                              #
+#          # Add Missing Movies to Radarr                   #
+#          radarr_add_missing: true                         #
+#          # Sets the collection order of the collection    #
+#          collection_order: alpha                          #
+#############################################################
+
+external_templates:
+  repo: PMM/templates
+  template_variables:
+    collection_section: "02"
+
+templates:
+  multi-franchise:
+    optional:
+      - name_mapping
+    cache_builders: 1
+    sync_mode: sync
+    collection_order: release
+    url_poster: https://raw.githubusercontent.com/meisnate12/Plex-Meta-Manager-Images/master/franchise/<<image_encoded>>.jpg
+
+collections:
+  Universe Collections:
+    template:
+      - name: separator
+        separator: universe
+  Muppets Universe:
+    template:
+      - name: shared
+      - name: multi-franchise
+    url_poster: https://theposterdb.com/api/assets/30438
+    plex_search:
+      all:
+        title: "Muppet"
+  Peanuts Universe:
+    template:
+      - name: shared
+      - name: multi-franchise
+    url_poster: https://theposterdb.com/api/assets/188201
+    imdb_list: "https://www.imdb.com/search/keyword/?keywords=peanuts&genres=Animation"
+  Robotech/ Macross Universe:
+    template:
+      - name: shared
+      - name: multi-franchise
+    url_poster: https://image.tmdb.org/t/p/original//2wcnENmf45rqqIODrT2zWANxUW7.jpg
+    plex_search:
+      all:
+        title: "robotech,macross"
+    name_mapping: Robotech Macross Universe
+  Star Trek Universe:
+    template:
+      - name: shared
+      - name: multi-franchise
+#        image: Star Trek
+    url_poster: https://theposterdb.com/api/assets/145094
+    imdb_list:
+      - "https://www.imdb.com/list/ls505191558/"
+      - "https://www.imdb.com/list/ls066228833/"
+      - "https://www.imdb.com/list/ls020564448/"
+      - "https://www.imdb.com/list/ls025989530/"
+#    letterboxd_list:
+#      - "https://letterboxd.com/fantic/list/star-trek/"
+#      - "https://letterboxd.com/kingfuchi/list/star-trek-documentaries/"
+#    trakt_list: https://trakt.tv/users/arachn0id/lists/star-trek-movies
+  Star Wars Universe:
+    template:
+      - name: shared
+      - name: multi-franchise
+#        image: Star Wars
+    url_poster: https://theposterdb.com/api/assets/13173
+    imdb_list:
+      - "https://www.imdb.com/list/ls532032424/"
+      - "https://www.imdb.com/list/ls072034866/"
+#    letterboxd_list:
+#      - "https://letterboxd.com/drchuck/list/star-wars/"
+#      - "https://letterboxd.com/jacob/list/star-wars-fan-films/"
+#      - "https://letterboxd.com/jacob/list/the-star-wars-universe-in-film-chronological/"
+#      trakt_list: https://trakt.tv/users/zorge88/lists/star-wars
+        
+#  DC Extended Universe:
+#    template:
+#      - name: shared
+#      - name: multi-franchise
+#        image: DC Universe
+#    trakt_list: https://trakt.tv/users/donxy/lists/dc-extended-universe
+#    summary: The DC Extended Universe (DECU) is the fictional shared universe where most stories in American comic book titles published by DC Comics take place. DC superheroes such as Superman, Batman, Wonder Woman, Martian Manhunter, The Flash, Green Lantern and Aquaman are from this universe, as well as teams such as the Justice League and the Teen Titans.
+#  "Alien / Predator":
+#    template:
+#      - name: shared
+#      - name: multi-franchise
+#        image: Alien Predator
+#    trakt_list: https://trakt.tv/users/donxy/lists/alien-predator-timeline
+#    name_mapping: Alien Predator
