@@ -49,10 +49,10 @@ dynamic_collections:
       - shared
     template_variables:
       poster_url:
-        - Pixar: https://theposterdb.com/api/assets/18894
-        - Studio Ghibli: https://theposterdb.com/api/assets/16569
-        - Walt Disney Animation Studios:  https://theposterdb.com/api/assets/11845
-        - Warner Animation Group: https://theposterdb.com/api/assets/69262
+        Pixar: https://theposterdb.com/api/assets/18894
+        Studio Ghibli: https://theposterdb.com/api/assets/16569
+        Walt Disney Animation Studios:  https://theposterdb.com/api/assets/11845
+        Warner Animation Group: https://theposterdb.com/api/assets/69262
     include:
       - Pixar
       - Studio Ghibli
