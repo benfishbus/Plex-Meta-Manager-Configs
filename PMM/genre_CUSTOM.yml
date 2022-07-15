@@ -52,7 +52,7 @@ collections:
         - Animation
 #        - Documentary
         - Musical
-      label.not: Holidays
+#      label.not: Holidays
     url_poster: https://theposterdb.com/api/assets/126050
     collection_order: alpha
     template:
@@ -79,7 +79,7 @@ collections:
       genre.not: 
         - Animation
 #       - Documentary
-      label.not: Holidays
+#      label.not: Holidays
     url_poster: https://theposterdb.com/api/assets/77912
     collection_order: alpha
     template:
