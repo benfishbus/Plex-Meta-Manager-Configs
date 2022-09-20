@@ -32,6 +32,7 @@ templates:
       - name_mapping
       - sort_title
       - build_collection
+      - poster_url
     cache_builders: 1
     minimum_items: <<minimum_items>>
     tmdb_collection_details: <<value>>
@@ -42,6 +43,7 @@ templates:
     sync_mode: sync
     collection_order: <<collection_order>>
     radarr_add_missing: <<radarr_add_missing>>
+    url_poster: <<poster_url>>
 
 dynamic_collections:
   TMDb Collections:
@@ -83,6 +85,12 @@ dynamic_collections:
       510940: Hildegarde Withers
 #      121938: The Hobbit
       119: Lord of the Rings
-      300546: Once Were Warriors
+#      300546: Once Were Warriors
 #      47814: The Thin Man
+    key_name_override:
+      Once were Warriors: Once Were Warriors
 #    template_variables:
+        97461: https://theposterdb.com/api/assets/84708                       #Lilo & Stitch
+        460467: https://theposterdb.com/api/assets/169962                          #Space Battleship Yamato
+        33938: https://theposterdb.com/api/assets/25081                                  #Airport
+        687929: https://www.themoviedb.org/t/p/original/pxaOzqzfZfDQRGIif7OfZkhayye.jpg     #Baztan Trilogy
